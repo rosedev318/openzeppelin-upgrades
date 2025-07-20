@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+
 const { version } = require(process.cwd() + '/package.json');
 const [date] = new Date().toISOString().split('T');
 
